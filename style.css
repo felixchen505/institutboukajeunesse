@@ -13,10 +13,14 @@ body {
   overflow: hidden;
 }
 
+.left-right-container {
+  display: inline-block;
+}
+
 .image-top {
   flex-shrink: 0;
   min-width: 100%;
-  min-height: 100%
+  min-height: 100%;
 }
 
 .page-title {
@@ -31,10 +35,11 @@ body {
 
 .title-container {
   position:absolute;
+  padding:0 3em;
 }
 
 .content-container {
-  padding:2em 7em;
+  padding:3em 15em;
   display: inline-block;
   vertical-align: middle;
   position:relative;
@@ -42,10 +47,13 @@ body {
 
 .right-container {
   width:40%;
-  float:right;
-  vertical-align: middle;
   height:100%;
-  position:relative;
+  float:right;
+  height:inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .left-container {
@@ -65,8 +73,12 @@ body {
   display: inline-block;
   margin-top: 2em;
   text-align: justify;
+  background-color: #E1E1E1;
+  padding: 2em 15em;
 }
 
 .image {
-  width: 100%;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
