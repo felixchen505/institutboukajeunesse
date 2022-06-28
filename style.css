@@ -1,0 +1,68 @@
+body {
+  font-family: arial;
+}
+
+.title-div {
+  width:100%;
+  text-align: center;
+  background-color: #04397D;
+  height:20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.page-title {
+  color:white;
+  font-size: 2.2em;
+}
+
+.aider-jeunesse {
+  color:#FF8717;
+  margin-top:1em;
+}
+
+.title-container {
+  position:absolute;
+}
+
+.content-container {
+  padding:2em 7em;
+  display: inline-block;
+  vertical-align: middle;
+  position:relative;
+}
+
+.right-container {
+  width:40%;
+  float:right;
+  vertical-align: middle;
+  height:100%;
+  position:relative;
+}
+
+.left-container {
+  width:60%;
+  padding-right:10em;
+  text-align: justify;
+  float:left;
+}
+
+.text {
+  padding:0 0;
+  margin:0.3em 0;
+}
+
+.next-text {
+  width:100%;
+  display: inline-block;
+  margin-top: 2em;
+  text-align: justify;
+}
