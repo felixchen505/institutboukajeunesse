@@ -117,3 +117,16 @@ body {
   margin-top:1em;
   display: block;
 }
+
+.domaines-img {
+  height:4em;
+}
+
+.dom-intervention {
+  text-align:center;
+  padding:4em 15em;
+}
+
+.domaines-text {
+  margin-top:1em;
+}
