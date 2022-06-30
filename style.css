@@ -314,6 +314,7 @@ body {
 
   .left-right-container-equipe {
     display: inline-block;
+    width:100%;
   }
 
   .left-container-equipe {
