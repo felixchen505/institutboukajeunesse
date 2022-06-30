@@ -259,4 +259,73 @@ body {
     padding-top: 2em;
     padding-right: 0;
   }
+
+  .tel-div {
+    width:100%;
+  }
+
+  .email-div {
+    width:100%;
+  }
+
+  .linkedin-div {
+    width:100%;
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+
+  .foot {
+    height:12em;
+  }
+
+  .content-container {
+    padding:3em 3em;
+    vertical-align: top;
+  }
+
+  .image {
+    min-height: 0;
+    min-width: 0;
+    width:100%;
+  }
+
+  .next-text {
+    padding:3em 3em;
+  }
+
+  .formes-implication {
+    padding:3em 3em;
+    text-align:center;
+  }
+
+  .implication-left {
+    width:100%;
+    padding:0;
+  }
+
+  .implication-right {
+    width:100%;
+    padding:0;
+  }
+
+  .dom-intervention {
+    padding:3em 3em;
+  }
+
+  .left-right-container-equipe {
+    display: inline-block;
+  }
+
+  .left-container-equipe {
+    display: none;
+  }
+
+  .right-container-equipe {
+    width:100%;
+  }
+
+  .foot {
+    margin-left:3em;
+    margin-right:3em;
+  }
 }
